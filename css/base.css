@@ -1,0 +1,57 @@
+header,
+nav,
+section,
+div,
+span,
+p,
+i,
+ul,
+li,
+input,
+a,
+img,
+form,
+html,
+body,
+ol {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a,
+i,
+em {
+    text-decoration: none;
+    color: #666;
+    font-style: normal;
+}
+
+input {
+    outline: none;
+    border: none;
+    border: 1px solid #ccc;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.f_left {
+    float: left;
+}
+
+.f_right {
+    float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    height: 0;
+    line-height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}

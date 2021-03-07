@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- 头部块 -->
+    <header class="wjs_header hidden-xs hidden-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="col-md-2-div">
+                        <span class="glyphicon glyphicon-modal-window"></span>
+                        <a href="javascript:;">手机蜂融网</a>
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                        <a href="javascript:;" class="col-md-2-div-erweima"><img src="upload/header_erweima.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <span class="glyphicon glyphicon-earphone"></span>
+                    <a href="javascript:;">联系我们：400-999-7956&nbsp;&nbsp;工作时间：09:00~18:00</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="javascript:;">常见问题</a>
+                    <a href="javascript:;">财富登录</a>
+                </div>
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-danger">免费登录</button>
+                    <button type="button" class="btn btn-link">注册</button></div>
+            </div>
+        </div>
+    </header>
+    <!-- 导航条 -->
+    <nav class="navbar navbar-default wjs_nav">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-brand" href="#"><img src="image/logo.png" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- //手风琴效果 -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav hidden-sm">
+                    <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">我要投资</a></li>
+                    <li><a href="#">我要借款</a></li>
+                    <li><a href="#">信息披露</a></li>
+                    <li><a href="#">关于我们    </a></li>
+                    <li><a href="#">我的账户</a></li>
+                    <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+                <!-- <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form> -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">个人中心</a></li>
+                    <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- 轮播图 -->
+    <div class="wjs_banner">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <!-- //圆点标记 -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <!-- 轮播图片 -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active" data-big-image="image/banner.big01.jpg" data-small-image="image/banner.small01.jpg">
+                    <!-- pc端 -->
+                    <!-- <a href="javascript:;" class="hidden-xs hidden-sm hidden-md pcImg"> <img src="image/banner.big01.jpg" alt=""></a> -->
+                    <!-- 移动端 -->
+                    <!-- <a href="javascript:;" class="hidden-lg mobileImg" data-samll-image="image/banner.small01.jpg"> <img src="image/banner.small01.jpg" alt=""></a> -->
+                </div>
+                <div class="item" data-big-image="image/banner.big02.jpg" data-small-image="image/banner.small02.jpg">
+                    <!-- <a href="javascript:;" class="hidden-xs hidden-sm hidden-md pcImg" data-big-image="image/banner.big02.jpg"> <img src="image/banner.big02.jpg" alt=""></a> -->
+                    <!-- <a href="javascript:;" class="hidden-lg mobileImg" data-samll-image="image/banner.small02.jpg"> <img src="image/banner.small02.jpg" alt=""></a> -->
+
+                </div>
+                <div class="item" data-big-image="image/banner.big03.jpg" data-small-image="image/banner.small03.jpg">
+                    <!-- <a href="javascript:;" class="hidden-xs hidden-sm hidden-md pcImg" data-big-image="image/banner.big03.jpg"> <img src="image/banner.big03.jpg" alt=""></a> -->
+                    <!-- <a href="javascript:;" class="hidden-lg mobileImg" data-samll-image="image/banner.small03.jpg"> <img src="image/banner.small03.jpg" alt=""></a> -->
+
+                </div>
+                <div class="item" data-big-image="image/banner.big04.jpg" data-small-image="image/banner.small04.jpg">
+                    <!-- <a href="javascript:;" class="hidden-xs hidden-sm hidden-md pcImg" data-big-image="image/banner.big04.jpg"> <img src="image/banner.big04.jpg" alt=""></a> -->
+                    <!-- <a href="javascript:;" class="hidden-lg mobileImg" data-samll-image="image/banner.small04.jpg"> <img src="image/banner.small04.jpg" alt=""></a> -->
+
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <!-- 左右按钮 -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- 信息块 -->
+    <div class="wjs_info hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <a href="javascript:;">
+                        <div class="media">
+                            <div class="media-left glyphicon glyphicon-home">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">银行存管</h4>
+                                <p>交易资金通过存管银行流转</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a href="javascript:;">
+                        <div class="media">
+                            <div class="media-left glyphicon glyphicon-bitcoin">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">多重优势</h4>
+                                <p>借款人资质经六重审核，周期短</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a href="javascript:;">
+                        <div class="media">
+                            <div class="media-left glyphicon glyphicon-link">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">信息安全</h4>
+                                <p>数据全程加密,采用银行级安全</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a href="javascript:;">
+                        <div class="media">
+                            <div class="media-left glyphicon glyphicon-blackboard">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">数据披露</h4>
+                                <p>累计投资 2,433,739,402元</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a href="javascript:;">
+                        <div class="media">
+                            <div class="media-left glyphicon glyphicon-briefcase">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">交易保障</h4>
+                                <p>银联支持全程保障交易安全</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a href="javascript:;">
+                        <div class="media">
+                            <div class="media-left glyphicon glyphicon-lock">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">银行存管</h4>
+                                <p>交易资金通过存管银行流转</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 预约块 -->
+    <div class="wjs_order hidden-xs hidden-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <span class="glyphicon glyphicon-time"></span> 现在的272人在排队，累计预约交易成功7571次
+                    <a href="javascript:;">什么叫预约投标</a>
+                    <a href="javascript:;">立即预约</a>
+                </div>
+                <div class="col-md-3">
+                    <span class="glyphicon glyphicon-facetime-video"></span> 蜂融网企业宣传片
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 产品块 -->
+    <div class="wjs_product">
+        <div class="container">
+            <!-- 不能直接在container里面改，需要在外面在套一个父盒子 -->
+            <div class="wjs_pNav">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#p1" aria-controls="p1" role="tab" data-toggle="tab">特别推荐</a></li>
+                    <li role="presentation"><a href="#p2" aria-controls="p2" role="tab" data-toggle="tab">微投资</a></li>
+                    <li role="presentation"><a href="#p3" aria-controls="p3" role="tab" data-toggle="tab">微小宝</a></li>
+                    <li role="presentation"><a href="#p4" aria-controls="p4" role="tab" data-toggle="tab">月月盈</a></li>
+                    <li role="presentation"><a href="#p5" aria-controls="p5" role="tab" data-toggle="tab">稳赢宝</a></li>
+                    <li role="presentation"><a href="#p6" aria-controls="p6" role="tab" data-toggle="tab">海航通宝</a></li>
+                    <li role="presentation"><a href="#p7" aria-controls="p7" role="tab" data-toggle="tab">微金宝</a></li>
+                </ul>
+            </div>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="p1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-4 wjs_product_1">
+                                <div class="wjs_pBox active">
+                                    <div class="wjs_product_tab_left">
+                                        <div class="wjs_product_tab_left_top">
+                                            <span class="glyphicon glyphicon-fire"></span>
+                                            <p>新手体验1002期</p>
+                                        </div>
+                                        <div class="wjs_product_tab_left_btm">
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wjs_product_tab_right">
+                                        <b>8</b>
+                                        <sub>%</sub>
+                                        <p>年利率</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 wjs_product_1">
+                                <div class="wjs_pBox">
+                                    <div class="wjs_product_tab_left">
+                                        <div class="wjs_product_tab_left_top">
+                                            <div class="wjs_pTab_LTop_bb">
+                                            </div>
+                                            <p>新手体验1002期</p>
+                                        </div>
+                                        <div class="wjs_product_tab_left_btm">
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wjs_product_tab_right">
+                                        <div class="wjs_pTab_ltop_b">
+                                            <span type="button" data-toggle="tooltip" data-placement="top" title="微金宝">宝</span>
+                                            <span type="button" data-toggle="tooltip" data-placement="top" title="北京市">北</span>
+                                        </div>
+                                        <b>8</b>
+                                        <sub>%</sub>
+                                        <p>年利率</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 wjs_product_1">
+                                <div class="wjs_pBox">
+                                    <div class="wjs_product_tab_left">
+                                        <div class="wjs_product_tab_left_top">
+                                            <p>新手体验1002期</p>
+                                        </div>
+                                        <div class="wjs_product_tab_left_btm">
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wjs_product_tab_right">
+                                        <b>8</b>
+                                        <sub>%</sub>
+                                        <p>年利率</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 wjs_product_1">
+                                <div class="wjs_pBox">
+                                    <div class="wjs_product_tab_left">
+                                        <div class="wjs_product_tab_left_top">
+                                            <p>新手体验1002期</p>
+                                        </div>
+                                        <div class="wjs_product_tab_left_btm">
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <p>起投金额(元)</p>
+                                                <p>0.01万</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wjs_product_tab_right">
+                                        <b>8</b>
+                                        <sub>%</sub>
+                                        <p>年利率</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="p2">bruno</div>
+                <div role="tabpanel" class="tab-pane" id="p3">tom</div>
+                <div role="tabpanel" class="tab-pane" id="p4">jerry</div>
+                <div role="tabpanel" class="tab-pane" id="p5">tom</div>
+                <div role="tabpanel" class="tab-pane" id="p6">jerry</div>
+                <div role="tabpanel" class="tab-pane" id="p7">tom</div>
+            </div>
+        </div>
+    </div>
+    <!-- 新闻块 -->
+    <div class="wjs_news">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-md-offset-2">
+                    <h3 class="wjs_nTitle">全部新闻</h3>
+                </div>
+                <div class="col-md-1 wjs_nTab">
+                    <div class="wjs_nTabLine hidden-xs hidden-sm"></div>
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-globe"></span></a></li>
+                        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-comment"></span></a></li>
+                        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-bell"></span></a></li>
+                        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-blackboard"></span></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-7">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">
+                            <ul class="fr">
+                                <li><a href="javascript:;" target="_blank">关于2020年中秋国庆双节放假调休的公告</a>[2020-09-25]</li>
+                                <li><a href="javascript:;" target="_blank">关于解决蜂融债权的公告</a>[2020-06-29]</li>
+                                <li><a href="javascript:;" target="_blank">关于2020年端午节放假调休的公告</a>[2020-06-24]</li>
+                                <li><a href="javascript:;" target="_blank">关于2020年五一放假调休的公告</a>[2020-04-26]</li>
+                                <li><a href="javascript:;" target="_blank">关于2020年清明节假期放假的公告</a>[2020-04-03]</li>
+                                <li><a href="javascript:;" target="_blank">关于2020年春节假期复工的通知</a>[2020-03-19]</li>
+                                <li><a href="javascript:;" target="_blank">关于自行下载个人持有项目合同的通知</a>[2020-03-14]</li>
+                                <li><a href="javascript:;" target="_blank">【通知】关于2020年春节假期延迟开工时间的公告</a>[2020-02-08]</li>
+                            </ul>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="profile">2</div>
+                        <div role="tabpanel" class="tab-pane" id="messages">3</div>
+                        <div role="tabpanel" class="tab-pane" id="settings">4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 合作伙伴 -->
+    <div class="wjs_partner hidden-xs hidden-sm">
+        <div class="container">
+            <div class="partner">
+                <h3>★★★&nbsp;<span>合作伙伴</span>&nbsp;★★★</h3>
+                <ul class="clearfix">
+                    <li>
+                        <a rel="nofollow"><img src="https://cdn-www.fengrongwang.com/res/img/pc/partner_aliyun.png"></a>
+                    </li>
+                    <li>
+                        <a rel="nofollow" target="_blank"><img src="https://cdn-www.fengrongwang.com/res/img/pc/partner_fdd.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a rel="nofollow"><img src="https://cdn-www.fengrongwang.com/res/img/pc/partner_yixin.jpg"></a>
+                    </li>
+                    <li>
+                        <a rel="nofollow" target="_blank"><img src="https://cdn-www.fengrongwang.com/res/img/pc/partner_wdty.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a rel="nofollow" target="_blank"><img src="https://cdn-www.fengrongwang.com/res/img/pc/partner_wang.png"></a>
+                    </li>
+                    <li>
+                        <a rel="nofollow" target="_blank"><img src="https://cdn-www.fengrongwang.com/res/img/pc/partner_wdzj.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a rel="nofollow" target="_blank"><img src="https://cdn-www.fengrongwang.com/res/img/pc/partner_shzx.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a rel="nofollow" target="_blank"><img src="https://cdn-www.fengrongwang.com/res/img/pc/partner_pyzx.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/jQuery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
